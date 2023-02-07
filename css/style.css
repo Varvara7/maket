@@ -37,7 +37,7 @@
 .navigation {
     display: flex;
     align-self: stretch;    
-    padding: 10px 0 10px 0;
+    
 }
 
 .menu-site {
@@ -200,21 +200,6 @@ h2 {
     font-size: 24px;
 }
 
-.button-close {
-    position: fixed;
-    top: 10px;
-    right: 10px;
-    border: none;
-    max-width: 100%;
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
-    color: #EA5D21;
-    background-color: #FFFFFF;
-    font-size: 18px;
-    box-shadow: 0 5px 5px 0 #808080;
-}
-
 .login-heading {
     display: flex;
     justify-content: center;    
@@ -263,6 +248,20 @@ h2 {
     cursor: pointer;
 }
 
+.button-close {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    border: none;
+    max-width: 100%;
+    width: 20px;    
+    cursor: pointer;
+    color: #EA5D21;
+    background-color: #FFFFFF;
+    font-size: 18px;
+    box-shadow: 0 5px 5px 0 #808080;
+}
+
 .show-popup {
     display: block;
 }
@@ -299,7 +298,8 @@ h2 {
     }
 
     .navigation {
-        align-self: center;        
+        align-self: center;
+        padding: 5px 0 5px 0;        
     }
 
     .menu-link {
