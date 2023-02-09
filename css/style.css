@@ -37,7 +37,6 @@
 .navigation {
     display: flex;
     align-self: stretch;    
-    
 }
 
 .menu-site {
@@ -110,6 +109,7 @@
 }
 
 .main-heading {
+    margin-top: 35px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -146,6 +146,46 @@ h2 {
     font-weight: 400;
     font-size: 36px;
     color: #646464;     
+}
+
+/*students*/
+
+.main-students {
+    width: 100%;
+    max-width: 1240px;
+    height: auto;
+    margin: 0 auto;
+    flex-grow: 1;
+    padding: 0 15px;
+}
+
+.students {
+    width: 100%;    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    list-style: none;
+    padding: 0;    
+}
+
+.student {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;       
+}
+
+.foto-student {
+    position: absolute;
+    width: 100%;
+    max-width: 200px;
+    height: 270px;
+}
+
+.name-student {
+    text-align: center;
+    margin: 0;
 }
 
 /*footer*/
@@ -305,8 +345,14 @@ h2 {
     .menu-link {
         font-size: 16px;
     }
-  
 }
+
+@media (max-width: 1080px) {
+    .students {
+        flex-direction: column;
+        text-align: center;       
+     }
+}   
 
 
     
