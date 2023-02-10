@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lobster&display=swap&family=Caveat&display=swap" rel="stylesheet">    
+    <title>Сайт группы</title>    
+</head>
+<body class="page">
+    <header class="header">
+        <img class="logo-site" src="../img/logo.svg" alt="логотип сайта">
+        <nav class="navigation"> 
+        <ul class="menu-site">
+            <li><a href="../index.html" class="menu-link">Главная</a></li>
+            <li><a href="#" class="menu-link active-link">Студенты</a></li>
+            <li><a href="./about.html" class="menu-link">О курсе</a></li>
+            <li><a href="./contacts.html" class="menu-link">Контакты</a></li>
+        </ul>
+        </nav>
+        <a href="#" class="login-button">Войти</a>
+    </header>
+    <main class="main">
+    <div class="trevel">    
+        <h1 class="main-golysheva">Добро пожаловать!</h1>
+        <img class="trevel-logo" src="../img/traveling.svg" alt="Путешествия">
+    </div>       
+    <div class="ya">        
+        <img class="foto" src="../img/IMG_9148.JPG" alt="я">
+        <div class="obomne">       
+            <h2 class="osnovnoe"><strong>Обо мне</strong></h2>
+            <h1 class="inform">Варвара Голышева</h1>                
+            <p class="text">Я из Москвы. Активная, дружелюбная и веселая. Не представляю себя без моря!</p> 
+            <blockquote><em class="em">Море — оно лучше любого лекарства смывает тоску и разочарование.(Виктор Гюго)</em></blockquote>
+            <p class="text">А море - это путешествия. Воспоминания..впечатления..эмоции.. Это навсегда остается со мной.</p>
+            <blockquote><em class="em">Путешествия лишают тебя дара речи, а потом превращают в лучшего рассказчика.(Ибн Баттута)</em></blockquote>        
+        </div>
+    </div>            
+    <form class="forma">
+        <fieldset>
+            <legend><strong>Море или горы</strong></legend>
+            <p class="opros">Что ближе Вам - море или горы? Наш выбор может сказать о нас даже больше, чем мы о нем...                   
+            </p>
+            <div class="buttons">
+                <button>Море</button>
+                <button>Горы</button>
+            </div>   
+        </fieldset>
+    </form>  
+        <h2 class="my">Мои цели в путешествии</h2>
+        <div class="mechta">
+            <ul>
+                <li>новая страна</li>
+                <li>культура страны</li>
+                <li>местная кухня</li>
+                <li>интересные места</li>
+            </ul>
+            <img class="foto_2" src="../img/putno-osiguranje-za-sloveniju.jpg" alt="мир">
+        </div>
+        <h2 class="my">Мои мечты</h2>
+        <div class="z">           
+            <a class="ssulka" href="https://wikiway.com/usa/gavayi/" target="_blank">Гавайи
+                <article>
+                    <img class="puti" src="../img/gavai.jpg" alt="Гавайи">                    
+                </article>
+            </a>
+            <a class="ssulka" href="https://wikiway.com/mexico/" target="_blank">Мексика
+                <article>
+                    <img class="puti" src="../img/mexico.jpg" alt="Мексика">
+                </article>                
+            </a>
+            <a class="ssulka" href="https://wikiway.com/morocco/" target="_blank">Морокко
+                <article>
+                    <img class="puti" src="../img/morocco.PNG" alt="Морокко">
+                </article>                
+            </a> 
+        </div>       
+        <h2 class="my">А какая Ваша мечта?</h2>
+        <div class="blits">           
+            <form action="#" method="post" class="blits-form">
+               <label for="username">Ваше имя:</label>
+                 <input class="blits-name" id="username" type="text" required placeholder="Представьтесь">
+               <label for="dream">Ваша мечта:</label>
+                 <input class="blits-dream" id="dream" type="text" required placeholder="Ваша мечта">        
+               <button class="blits-button" type="submit">Отправить</button>
+            </form>
+        </div>
+    <p class="osnovnoe"><a href="https://vk.com/rubka" class="icon" target="_blank"><img src="../img/vk_logo_icon_147212.svg" alt="vk"></a></p>       
+    </main>
+    <footer class="footer">
+        <p><span class="copy">2022 &copy;</span> <a href="#" class="innopolis-link">учебный центр</a></p>        
+    </footer>
+    <div class="login-popup">
+        <button class="button-close" type="submit">x</button>
+        <h2 class="login-heading">Войти на сайт</h2>
+        <form class="login-form">
+            <input class="login-input" type="text" name="login" placeholder="Логин" required>
+            <input class="login-password" type="text" name="password" placeholder="Пароль" required>
+            <button class="popup-button" type="submit">Войти</button>
+        </form>
+    </div>
+    <script src="../js/popup.js"></script>    
+</body>
+</html>   
