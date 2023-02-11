@@ -24,14 +24,14 @@
     font-weight: 400;    
     background-color: #213B7E;    
     margin:0 auto;
-    padding:0 15px;
+    padding:0 16px;
     justify-content: space-between;
     align-items: center;
 }
 
 .logo-site { 
-    width: 47px;
-    height: 47px;
+    width: 46px;
+    height: 46px;
 }
 
 .navigation {
@@ -56,7 +56,7 @@
 .menu-link {
     display: flex;  
     margin: 0;
-    padding: 15px;
+    padding: 16px;
     color:#FFFFFF;
     background-color: #213B7E;    
     font-size: 20px;
@@ -95,15 +95,15 @@
 
 .main {    
     width: 100%;
-    max-width: 941px;
+    max-width: 939px;
     height: auto;
     margin: 0 auto;
     flex-grow: 1;
-    padding: 0 15px;       
+    padding: 0 14px;       
 }
 
 .main-heading {
-    margin-top: 35px;
+    margin-top: 36px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -156,7 +156,7 @@ h2 {
     height: auto;
     margin: 0 auto;
     flex-grow: 1;
-    padding: 0 15px;
+    padding: 0 14px;
 }
 
 .students {
@@ -197,7 +197,7 @@ h2 {
     height: auto;
     margin: 0 auto;
     flex-grow: 1;
-    padding: 0 15px; 
+    padding: 0 14px; 
 }
 
 .video {
@@ -214,7 +214,7 @@ h2 {
     height: auto;
     margin: 0 auto;
     flex-grow: 1;
-    padding: 0 15px;
+    padding: 0 14px;
 }
 
 .contacts {
@@ -245,7 +245,7 @@ h2 {
     height: auto;
     margin: 0 auto;
     flex-grow: 1;
-    padding: 0 15px;
+    padding: 0 14px;
 }
 
 .main-golysheva {
@@ -253,7 +253,7 @@ h2 {
     font-family: caveat;  
     font-size: 35px;
     color: #646464;
-    padding: 0 15px;
+    padding: 0 14px;
 }
 
 .trevel {
@@ -275,8 +275,8 @@ h2 {
     justify-content: space-around;
     align-items: stretch;
     width: 100%;
-    margin-bottom: 25px;
-    padding: 15px;
+    margin-bottom: 24px;
+    padding: 14px;
 }
 
 .foto {
@@ -323,8 +323,8 @@ h2 {
 .icon {
     display: flex;            
     justify-content: center;    
-    width: 45px;
-    height: 45px;        
+    width: 46px;
+    height: 46px;        
 }
 
 .icon:hover {
@@ -341,7 +341,7 @@ h2 {
 .opros {
     font-family: lobster;    
     font-weight: 400;
-    font-size: 15px;
+    font-size: 14px;
     color: #646464;    
 }   
 
@@ -370,7 +370,7 @@ legend {
     justify-content: space-around;
     align-items: stretch;    
     width: 100%;
-    margin-bottom: 25px;
+    margin-bottom: 24px;
 }
 
 .z {
@@ -384,10 +384,10 @@ legend {
 .puti {
     width: 100%;
     object-fit: contain;
-    box-shadow: 0 5px 10px 0px #808080;
-    padding: 5px;
-    margin-top: 5px;
-    margin-bottom: 15px;
+    box-shadow: 0 6px 10px 0px #808080;
+    padding: 6px;
+    margin-top: 6px;
+    margin-bottom: 16px;
 }
 
 .ssulka {
@@ -414,7 +414,7 @@ legend {
 
 label {
     font-family: 'Roboto';
-    font-size: 15px;
+    font-size: 14px;
     color: #213B7E;
 }
 
@@ -445,7 +445,7 @@ label {
 
 .blits-button {    
     width: 150px;
-    min-height: 45px;
+    min-height: 44px;
     text-decoration: none;
     color: #FFFFFF;
     background-color: #EA5D21;    
@@ -455,7 +455,7 @@ label {
     font-weight: 400;
     font-size: 18px;
     cursor: pointer;
-    box-shadow: 0 5px 10px 0px #808080;
+    box-shadow: 0 6px 10px 0px #808080;
 }   
 
 /*footer*/
@@ -467,7 +467,7 @@ label {
     max-width: 1300px;
     min-height: 60px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 14px;
     justify-content: center;
     align-items: center;
     background-color: #213B7E;    
@@ -569,7 +569,7 @@ label {
     color: #EA5D21;
     background-color: #FFFFFF;
     font-size: 18px;
-    box-shadow: 0 5px 5px 0 #808080;
+    box-shadow: 0 6px 6px 0 #808080;
 }
 
 .show-popup {
@@ -583,7 +583,7 @@ label {
     .header {
         flex-wrap: nowrap;
         flex-direction: column;
-        padding: 15px;    
+        padding: 14px;    
     }
 
     .logo-site {
@@ -613,7 +613,7 @@ label {
      
      .text {
          width: 100%;
-         font-size: 15px;
+         font-size: 16px;
      }
  
      .opros {
@@ -625,12 +625,12 @@ label {
     .header {
         flex-wrap: nowrap;
         flex-direction: column;
-        padding: 15px;    
+        padding: 14px;    
     }
 
     .navigation {
         align-self: center;
-        padding: 5px 0 5px 0;        
+        padding: 6px 0 6px 0;        
     }
 
     .menu-link {
@@ -646,12 +646,12 @@ label {
     }
     
     .obomne {
-        padding: 0 15px;
+        padding: 0 14px;
         width: 100%;
     }
 
     .z {
-        padding: 0 15px;
+        padding: 0 14px;
     }
 
     .foto {
@@ -661,7 +661,7 @@ label {
     }
 
     .foto_2 {
-        padding: 0 15px;
+        padding: 0 14px;
     }    
 }
 
