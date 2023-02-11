@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
 .page {
     display: flex;
     flex-direction: column;
@@ -22,9 +26,7 @@
     width: 100%;    
     max-width: 1300px;
     height: 100%;
-    min-height: 80px;    
-    font-family: 'Roboto';
-    font-style: normal;
+    min-height: 80px;   
     font-weight: 400;    
     background-color: #213B7E;    
     margin:0 auto;
@@ -107,9 +109,7 @@
 }
 
 .main-heading {
-    margin-top: 36px;
-    font-family: 'Roboto';
-    font-style: normal;
+    margin-top: 36px;    
     font-weight: 700;
     font-size: 30px;
 }
@@ -121,17 +121,13 @@
 }
 
 h2 {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 25px;
 }
 
 .text {
     width: 100%;
-    max-width: 634px;    
-    font-family: 'Roboto';
-    font-style: normal;
+    max-width: 634px;  
     font-weight: 400;
     font-size: 18px;
 }
@@ -174,8 +170,6 @@ h2 {
 }
 
 .student {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     margin-bottom: 20px;       
@@ -234,16 +228,12 @@ h2 {
 
 .text-contact {
     width: 100%;           
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
 }   
 
 .text-tel {
     width: 100%;           
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     text-decoration: underline; 
@@ -263,7 +253,7 @@ h2 {
 .main-golysheva {
     display: flex;  
     justify-content: center;
-    font-family: caveat; 
+    font-family: 'caveat'; 
     font-size: 35px;
     color: #646464;
     padding: 0 14px;
@@ -311,7 +301,6 @@ h2 {
 .osnovnoe {
     display: flex;
     justify-content: center;
-    font-family: roboto;    
     font-weight: 400;
     font-size: 20px;
     color: #213B7E;    
@@ -320,7 +309,7 @@ h2 {
 .inform {
     display: flex;
     justify-content: center;
-    font-family: caveat;
+    font-family: 'caveat';
     font-weight: 400;
     font-size: 40px;
     color: #c7d410;
@@ -346,7 +335,7 @@ legend {
 }
 
 .opros {
-    font-family: lobster;    
+    font-family: 'lobster';    
     font-weight: 400;
     font-size: 14px;
     color: #646464;    
@@ -359,7 +348,7 @@ legend {
 }
 
 .my {
-    font-family: caveat;    
+    font-family: 'caveat';    
     font-weight: 400;
     font-size: 30px;
     color: #c7d410;
@@ -413,10 +402,13 @@ li::marker {
     width: 100%;
     max-width: 400px;    
     padding: 6px 28px 40px;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
+}
+
+label {
+    font-size: 15px;
+    color: #213B7E;
 }
 
 .blits-form {
@@ -431,14 +423,12 @@ li::marker {
 }
 
 .blits-name {
-    font-family:'Roboto';
     font-weight: 400;     
     color: #808080;
     padding: 10px;
 }
 
 .blits-dream {      
-    font-family:'Roboto';
     font-weight: 400;      
     color: #808080;
     padding: 10px;    
@@ -450,9 +440,7 @@ li::marker {
     text-decoration: none;
     color: #FFFFFF;
     background-color: #EA5D21;    
-    border: none;
-    font-family: 'Roboto';
-    font-style: normal;
+    border: none;    
     font-weight: 400;
     font-size: 18px;
     cursor: pointer;
@@ -487,16 +475,12 @@ li::marker {
 }
 
 .copy {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     color:rgba(255, 255, 255, 0.5);
 }
 
 .innopolis-link {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     color:rgba(255, 255, 255, 0.5);
@@ -517,8 +501,6 @@ li::marker {
     padding: 26px 28px 50px;
     background: #FFFFFF;
     border: 1px solid #213B7E;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 24px;
 }
@@ -540,7 +522,6 @@ li::marker {
 }
 
 .login-input {
-    font-family:'Roboto';
     font-weight: 400;      
     font-size: 24px;
     line-height: 28px;
@@ -549,7 +530,6 @@ li::marker {
 }
 
 .login-password {      
-    font-family:'Roboto';
     font-weight: 400;      
     font-size: 24px;
     line-height: 28px;
@@ -564,8 +544,6 @@ li::marker {
     color: #FFFFFF;
     background-color: #EA5D21;
     border: none;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     cursor: pointer;
