@@ -229,12 +229,20 @@ h2 {
 }
 
 .text-contact {
-    width: 100%;
-    max-width: 439px;       
+    width: 100%;           
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;    
+    font-size: 18px;
+}   
+
+.text-tel {
+    width: 100%;           
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: underline; 
 }
 
 /*Golysheva*/
