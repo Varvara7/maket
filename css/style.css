@@ -269,8 +269,17 @@ h2 {
     padding: 0 14px;
 }
 
-.main-golysheva::after {
-    content: url(../img/procrastinating.png);
+.trevel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;   
+}
+
+.trevel-logo {
+    width: 40px;
+    height: 40px;
 }
 
 .ya {
