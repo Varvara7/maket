@@ -257,11 +257,16 @@ h2 {
 }
 
 .main-golysheva {
-    display: flex;    
-    font-family: caveat;  
+    display: flex;  
+    justify-content: center;
+    font-family: caveat; 
     font-size: 35px;
     color: #646464;
     padding: 0 14px;
+}
+
+.main-golysheva::after {
+    content: url(../img/procrastinating.png);
 }
 
 .trevel {
@@ -283,6 +288,7 @@ h2 {
     justify-content: space-around;
     align-items: stretch;
     width: 100%;
+    max-width: 1100px;
     margin-bottom: 24px;
     padding: 14px;
 }
@@ -326,6 +332,10 @@ h2 {
     font-size: 30px;
     color: #c7d410;
     text-align: center;
+}
+
+li::marker {
+    color: #EA5D21;
 }
 
 .icon {
@@ -378,6 +388,7 @@ legend {
     justify-content: space-around;
     align-items: stretch;    
     width: 100%;
+    max-width: 1000px;
     margin-bottom: 24px;
 }
 
