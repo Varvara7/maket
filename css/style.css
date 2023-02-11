@@ -9,6 +9,10 @@
     margin: 0;
 }
 
+::selection {
+    background-color: cornflowerblue;
+}
+
 /*header*/
 
 .header {
@@ -269,19 +273,6 @@ h2 {
     content: url(../img/procrastinating.png);
 }
 
-.trevel {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;   
-}
-
-.trevel-logo {
-    width: 40px;
-    height: 40px;
-}
-
 .ya {
     display: flex;
     flex-direction: row;
@@ -326,42 +317,11 @@ h2 {
     color: #c7d410;
 }
 
-.my {
-    font-family: caveat;    
-    font-weight: 400;
-    font-size: 30px;
-    color: #c7d410;
-    text-align: center;
-}
-
-li::marker {
-    color: #EA5D21;
-}
-
-.icon {
-    display: flex;            
-    justify-content: center;    
-    width: 46px;
-    height: 46px;        
-}
-
-.icon:hover {
-    display: flex;
-    background-color: #EA5D21;
-}
-
-.buttons {
+.forma {
     display: flex;
     justify-content: center;
-    margin-top: 30px;    
-   }
-
-.opros {
-    font-family: lobster;    
-    font-weight: 400;
-    font-size: 14px;
-    color: #646464;    
-}   
+    margin-bottom: 10px;        
+}
 
 fieldset {    
     width: max-content;
@@ -371,15 +331,30 @@ fieldset {
     margin: 20px;          
 } 
 
-.forma {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;        
-}
-
 legend {
     text-align: center;
     color: #213B7E;
+}
+
+.opros {
+    font-family: lobster;    
+    font-weight: 400;
+    font-size: 14px;
+    color: #646464;    
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;    
+}
+
+.my {
+    font-family: caveat;    
+    font-weight: 400;
+    font-size: 30px;
+    color: #c7d410;
+    text-align: center;
 }
 
 .mechta {
@@ -392,12 +367,26 @@ legend {
     margin-bottom: 24px;
 }
 
+li::marker {
+    color: #EA5D21;
+}
+
+.foto_2 {
+    display: flex;         
+    width: 65%;                  
+    object-fit: contain;        
+}
+
 .z {
     display: flex;
     width: 100%;
     max-width: 1100px;
     align-items: stretch;
     justify-content: space-around;
+}
+
+.ssulka {
+    text-align: center;    
 }
 
 .puti {
@@ -407,16 +396,6 @@ legend {
     padding: 6px;
     margin-top: 6px;
     margin-bottom: 16px;
-}
-
-.ssulka {
-    text-align: center;    
-}
-
-.foto_2 {
-    display: flex;         
-    width: 65%;                  
-    object-fit: contain;        
 }
 
 .blits {
@@ -429,12 +408,6 @@ legend {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-}
-
-label {
-    font-family: 'Roboto';
-    font-size: 14px;
-    color: #213B7E;
 }
 
 .blits-form {
@@ -475,7 +448,19 @@ label {
     font-size: 18px;
     cursor: pointer;
     box-shadow: 0 6px 10px 0px #808080;
-}   
+} 
+
+.icon {
+    display: flex;            
+    justify-content: center;    
+    width: 46px;
+    height: 46px;        
+}
+
+.icon:hover {
+    display: flex;
+    background-color: #EA5D21;
+}
 
 /*footer*/
 
