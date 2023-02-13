@@ -38,6 +38,7 @@ html {
 .logo-site { 
     width: 46px;
     height: 46px;
+    background-color: #EA5D21;
 }
 
 .navigation {
@@ -589,7 +590,6 @@ label {
     display: block;
 }
 
-
 /*media*/
 
 @media (max-width: 480px) {
@@ -681,11 +681,7 @@ label {
 @media (max-width: 979px) {
     .students {
         justify-content: space-around;
-} 
-
-    .main-heading {
-        text-align: center;
-    }
+    } 
 }
 
 
