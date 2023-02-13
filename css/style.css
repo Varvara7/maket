@@ -176,11 +176,10 @@ h2 {
     margin-bottom: 20px;
 }
 
-.foto-student {
-    position: absolute;
-    width: 100%;
-    max-width: 200px;
-    height: auto;
+.photo-student {
+    width: 200px;
+    height: 270px;    
+    background-color: #86C6F4;
 }
 
 .name-student {
