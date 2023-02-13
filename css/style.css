@@ -181,6 +181,10 @@ h2 {
     background-color: #86C6F4;
 }
 
+.photo-student:hover {
+    background-color: #FFFFFF;
+}
+
 .name-student {
     text-align: center;
     margin: 0;
