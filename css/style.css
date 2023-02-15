@@ -231,7 +231,9 @@ h2 {
 .video {
     width: 100%;
     max-width: 820px;
-    height: auto;
+    height: 100%;
+    min-height: 550px;
+    border: 2px solid #EA5D21;
 }
 
 /*contacts*/
@@ -623,20 +625,15 @@ label {
         display: block;
      }
      
-     .foto {
+    .foto {
          width: 100%;
      }
  
-     .foto_2 {
+    .foto_2 {
          width: 100%;        
      }
      
-     .text {
-         width: 100%;
-         font-size: 16px;
-     }
- 
-     .opros {
+    .opros {
          margin: 0;
      }     
  }
