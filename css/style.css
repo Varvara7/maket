@@ -255,7 +255,8 @@ h2 {
 .map {
     width: 100%;
     max-width: 1268px;
-    height: auto;
+    height: 370px;
+    border: 0;
 }
 
 .text-contact {
