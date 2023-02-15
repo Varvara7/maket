@@ -126,6 +126,11 @@ h2 {
     font-size: 25px;
 }
 
+.text-left {
+    display: flex;
+    justify-content: space-between;
+}       
+
 .text {
     width: 100%;
     max-width: 634px;  
@@ -133,20 +138,19 @@ h2 {
     font-size: 18px;
 }
 
-.em {
-    color: #EA5D21;
-}
-
-.deviz { 
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    max-width: 129px;      
+.slogan {
+    padding: 14px;
+    margin: 0;
     font-family: 'Lobster';
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
-    color: #646464;     
+    line-height: 45px;
+    color: #646464;
+}
+
+.em {
+    color: #EA5D21;
 }
 
 /*students*/
@@ -613,8 +617,8 @@ label {
     
     .login-popup {
         top: 70%;
-    }  
-     
+    } 
+    
     .mechta {
         display: block;
      }
