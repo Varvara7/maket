@@ -440,6 +440,10 @@ label {
     flex-direction: column;
 }
 
+.poisk {
+    padding-left: 150px;
+}
+
 .map {
     width: 100%;
     max-width: 1268px;
@@ -648,7 +652,11 @@ label {
 
     .foto_2 {
         padding: 0 14px;
-    }    
+    }
+    
+    .poisk {
+        padding-left: 50px;
+    }
 }
 
 @media (max-width: 979px) {
