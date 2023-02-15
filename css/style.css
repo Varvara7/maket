@@ -217,61 +217,6 @@ h2 {
     border-radius: 20px;  
 }
 
-/*about*/
-
-.main-about {
-    width: 100%;
-    max-width: 850px;
-    height: auto;
-    margin: 0 auto;
-    flex-grow: 1;
-    padding: 0 14px; 
-}
-
-.video {
-    width: 100%;
-    max-width: 820px;
-    height: 100%;
-    min-height: 550px;
-    border: 2px solid #EA5D21;
-}
-
-/*contacts*/
-
-.main-contacts {
-    width: 100%;
-    max-width: 1298px;
-    height: auto;
-    margin: 0 auto;
-    flex-grow: 1;
-    padding: 0 14px;
-}
-
-.contacts {
-    display: flex;
-    flex-direction: column;
-}
-
-.map {
-    width: 100%;
-    max-width: 1268px;
-    height: 370px;
-    border: 0;
-}
-
-.text-contact {
-    width: 100%;           
-    font-weight: 400;
-    font-size: 18px;
-}   
-
-.text-tel {
-    width: 100%;           
-    font-weight: 400;
-    font-size: 18px;
-    text-decoration: underline; 
-}
-
 /*Golysheva*/
 
 .main-g {
@@ -458,6 +403,61 @@ label {
 .icon:hover {
     display: flex;
     background-color: #EA5D21;
+}
+
+/*about*/
+
+.main-about {
+    width: 100%;
+    max-width: 850px;
+    height: auto;
+    margin: 0 auto;
+    flex-grow: 1;
+    padding: 0 14px; 
+}
+
+.video {
+    width: 100%;
+    max-width: 820px;
+    height: 100%;
+    min-height: 550px;
+    border: 2px solid #EA5D21;
+}
+
+/*contacts*/
+
+.main-contacts {
+    width: 100%;
+    max-width: 1298px;
+    height: auto;
+    margin: 0 auto;
+    flex-grow: 1;
+    padding: 0 14px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+.map {
+    width: 100%;
+    max-width: 1268px;
+    height: 370px;
+    border: 0;
+}
+
+.text-contact {
+    width: 100%;           
+    font-weight: 400;
+    font-size: 18px;
+}   
+
+.text-tel {
+    width: 100%;           
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: underline; 
 }
 
 /*footer*/
