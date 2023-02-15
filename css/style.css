@@ -419,9 +419,9 @@ label {
 .video {
     width: 100%;
     max-width: 820px;
-    height: 100%;
-    min-height: 550px;
+    height: 550px;    
     border: 2px solid #EA5D21;
+    background: black;
 }
 
 /*contacts*/
