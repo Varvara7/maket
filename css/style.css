@@ -348,38 +348,6 @@ h2 {
     color: #c7d410;
 }
 
-.forma {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;        
-}
-
-fieldset {    
-    width: max-content;
-    height: 100%;
-    max-height: 100px;    
-    text-align: center;    
-    margin: 20px;          
-} 
-
-legend {
-    text-align: center;
-    color: #213B7E;
-}
-
-.opros {
-    font-family: 'lobster';    
-    font-weight: 400;
-    font-size: 14px;
-    color: #646464;    
-}
-
-.buttons {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;    
-}
-
 .my {
     font-family: 'caveat';    
     font-weight: 400;
