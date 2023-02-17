@@ -418,9 +418,10 @@ label {
 
 .video {
     width: 100%;
-    max-width: 820px;
+    max-width: 820px;    
     border: 2px solid #EA5D21;
-    background-color: black;    
+    background-color: black;     
+    object-fit: contain;       
 }
 
 /*contacts*/
@@ -654,7 +655,7 @@ label {
     }
     
     .poisk {
-        padding-left: 50px;
+        padding-left: 40px;
     }
 }
 
