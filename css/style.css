@@ -193,6 +193,7 @@ h2 {
     text-align: center;
     margin: 0;
     font-size: 20px;
+    color: black;
 }
 
 .new {
@@ -330,7 +331,8 @@ li::marker {
 }
 
 .ssulka {
-    text-align: center;    
+    text-align: center;
+    color: #EA5D21;    
 }
 
 .puti {
