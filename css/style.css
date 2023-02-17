@@ -302,8 +302,7 @@ h2 {
 }
 
 .mechta {
-    display: flex;
-    flex-direction: row;
+    display: flex;    
     justify-content: space-around;
     align-items: stretch;    
     width: 100%;
@@ -315,10 +314,11 @@ li::marker {
     color: #EA5D21;
 }
 
-.foto_2 {
-    display: flex;         
-    width: 65%;                  
-    object-fit: contain;        
+.trevel-video {
+    width: 100%;
+    max-width: 600px;    
+    object-fit: contain;
+    padding: 0 18px;
 }
 
 .z {
@@ -593,19 +593,11 @@ label {
     .login-popup {
         top: 70%;
     } 
-    
-    .mechta {
-        display: block;
-     }
-     
+         
     .foto {
          width: 100%;
      }
  
-    .foto_2 {
-         width: 100%;        
-     }
-     
     .opros {
          margin: 0;
      }     
@@ -650,10 +642,10 @@ label {
         align-self: center;
     }
 
-    .foto_2 {
-        padding: 0 14px;
-    }
-    
+    .mechta {
+        display: block;
+     }
+
     .poisk {
         padding-left: 40px;
     }
