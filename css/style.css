@@ -463,7 +463,8 @@ label {
     width: 100%;           
     font-weight: 400;
     font-size: 18px;
-    text-decoration: underline; 
+    text-decoration: underline;
+    color: black; 
 }
 
 /*footer*/
