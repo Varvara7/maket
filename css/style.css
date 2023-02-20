@@ -15,7 +15,7 @@ html {
 }
 
 ::selection {
-    background-color: cornflowerblue;
+    background-color: rgb(253, 164, 129);
 }
 
 /*header*/
@@ -193,6 +193,14 @@ h2 {
     font-size: 20px;
 }
 
+a {
+    text-decoration: none; color: black;
+} 
+
+a:hover {
+    text-decoration: underline; color: #EA5D21;
+}
+
 .new {
     position: relative;
 }
@@ -203,7 +211,7 @@ h2 {
     top: 0;
     right: 0;
     padding: 0 6px;
-    transform: translate(10px, -40%);
+    transform: translate(14px, -40%);
     display: inline-block;
     font-size: 18px;    
     color: #FFFFFF;
