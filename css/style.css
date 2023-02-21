@@ -351,6 +351,12 @@ li::marker {
     padding: 6px;
     margin-top: 6px;
     margin-bottom: 16px;
+    transition: 2s;
+}
+
+.puti:hover {
+    transform: scale(1.1);
+    background-color: #FFFFFF;
 }
 
 .blits {
