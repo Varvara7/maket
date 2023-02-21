@@ -394,12 +394,14 @@ label {
 
 .btn {
     border: 2px solid #EA5D21;
-    color: #EA5D21;    
+    color: #EA5D21;
+    background-color:#FFFFFF;    
     padding: 6px 14px;  
     transition: all 5s;    
     box-shadow: 0 6px 10px 0px #808080;
     font-family: 'caveat';
     font-size: 20px;
+    cursor: pointer;
 }
 
 .btn:hover {
