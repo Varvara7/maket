@@ -42,6 +42,13 @@ html {
     width: 46px;
     height: 46px;
     background-color: #EA5D21;
+    transition: all 2s;
+}
+
+.logo-site:hover {
+    transform: scale(1.2);
+    border-radius: 50%;
+    background-color: darkseagreen;
 }
 
 .navigation {
@@ -186,21 +193,24 @@ h2 {
 }
 
 .photo-student:hover {
-    transition: all 5s;
+    transition: all 2s;
+    transform: scale(1.1);
     background-color: darkseagreen;
 }
 
-.name-student {
+.st {
+    text-decoration: none;
+}
+
+.name-st {
     text-align: center;
     margin: 0;
     font-size: 20px;
-}
-
-a {
-    text-decoration: none; color: black;
+    color: black;
+    margin-top: 10px;
 } 
 
-a:hover {
+.name-st:hover {
     text-decoration: underline; color: #EA5D21;
     transition: all 2s;
 }
@@ -272,7 +282,7 @@ a:hover {
 .foto {
     display: flex;
     width: 40%;
-    object-fit: contain;        
+    object-fit: contain;
 }
 
 .obomne {
@@ -315,7 +325,7 @@ a:hover {
     align-items: stretch;    
     width: 100%;
     max-width: 1000px;
-    margin-bottom: 24px;
+    margin-bottom: 50px;
 }
 
 li::marker {
@@ -339,8 +349,10 @@ li::marker {
 
 .ssulka {
     text-align: center;
-    color: #EA5D21;    
-}
+    color: #EA5D21;
+    text-decoration: none;
+    font-size: 20px;
+}    
 
 .ssulka:hover {
     text-decoration: underline; color: #213B7E;
@@ -351,8 +363,8 @@ li::marker {
     object-fit: contain;
     box-shadow: 0 6px 10px 0px #808080;
     padding: 6px;
-    margin-top: 6px;
-    margin-bottom: 16px;
+    margin-top: 14px;
+    margin-bottom: 14px;
     transition: 2s;
 }
 
@@ -405,7 +417,7 @@ label {
     color: #EA5D21;
     background-color:#FFFFFF;    
     padding: 6px 14px;  
-    transition: all 5s;    
+    transition: all 3s;    
     box-shadow: 0 6px 10px 0px #808080;
     font-family: 'caveat';
     font-size: 20px;
@@ -415,6 +427,8 @@ label {
 .btn:hover {
     color: #c7d410;
     border: 2px solid #c7d410;
+    transform: scale(1.2);
+    border-radius: 20px;
 }
 
 .icon {
