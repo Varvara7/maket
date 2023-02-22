@@ -549,15 +549,15 @@ label {
     font-size: 24px;
     animation-duration: 1.5s;
     animation-fill-mode: both;
-    animation-name: sdvig;
+    animation-name: sdvigIn;
 }
 
-@keyframes sdvig {
+@keyframes sdvigIn {
     0% {
     opacity: 0;
     transform: translateY(-50%);
     transform: translateX(50%);
-    }
+    }   
     100% {
         opacity: 1;
         transform: none;
