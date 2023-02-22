@@ -536,7 +536,7 @@ label {
     display: none;
     position: fixed;
     z-index: 2;
-    top: 16%;
+    top: 15%;
     left: 30%;           
     transform: translate(-50%,-68%);
     width: 100%;
