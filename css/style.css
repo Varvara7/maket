@@ -42,7 +42,7 @@ html {
     width: 46px;
     height: 46px;
     background-color: #EA5D21;
-    transition: all 2s;
+    transition: all 0.5s;
 }
 
 .logo-site:hover {
@@ -193,7 +193,7 @@ h2 {
 }
 
 .photo-student:hover {
-    transition: all 2s;
+    transition: all 0.7s;
     transform: scale(1.1);
     background-color: darkseagreen;
 }
@@ -212,7 +212,6 @@ h2 {
 
 .name-st:hover {
     text-decoration: underline; color: #EA5D21;
-    transition: all 2s;
 }
 
 .new {
@@ -365,7 +364,7 @@ li::marker {
     padding: 6px;
     margin-top: 14px;
     margin-bottom: 14px;
-    transition: 2s;
+    transition: all 0.8s;
 }
 
 .puti:hover {
@@ -417,7 +416,7 @@ label {
     color: #EA5D21;
     background-color:#FFFFFF;    
     padding: 6px 14px;  
-    transition: all 3s;    
+    transition: all 0.5s;    
     box-shadow: 0 6px 10px 0px #808080;
     font-family: 'caveat';
     font-size: 20px;
@@ -547,7 +546,7 @@ label {
     border: 1px solid #213B7E;
     font-weight: 400;
     font-size: 24px;
-    animation-duration: 1.5s;
+    animation-duration: 1.0s;
     animation-fill-mode: both;
     animation-name: sdvigIn;
 }
